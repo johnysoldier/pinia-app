@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "play games",
+      "isFav": true
+    },
+    {
+      "id": 2,
+      "title": "buy some milk",
+      "isFav": false
+    },
+    {
+      "title": "go to the park",
+      "isFav": false,
+      "id": 3
+    },
+    {
+      "title": "eat pizza",
+      "isFav": true,
+      "id": 4
+    },
+    {
+      "title": "listen to music",
+      "isFav": true,
+      "id": 611
+    }
+  ]
+}
