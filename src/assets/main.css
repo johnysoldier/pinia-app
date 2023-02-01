@@ -67,11 +67,13 @@ header h1 {
 .filter {
   max-width: 640px;
   margin: 10px auto;
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
 }
 .filter button {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   background: #fff;
   border: 2px solid #555;
   border-radius: 4px;
@@ -119,22 +121,4 @@ form input {
   padding: 5px 0;
   text-align: center;
   margin: 30px auto;
-}
-
-/* Reset */
-.reset {
-  max-width: 640px;
-  margin: 10px auto;
-  text-align: center;
-}
-.reset button {
-  display: inline-block;
-  margin-left: 10px;
-  background: #fff;
-  border: 2px solid #555;
-  border-radius: 4px;
-  padding: 4px 8px;
-  cursor: pointer;
-  font-size: 0.8em;
-  font-size: 1em;
 }
